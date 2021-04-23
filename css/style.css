@@ -74,6 +74,25 @@ img {
   color: #fff;
   background: var(--primary-color);
 }
+
+.arrow-icon {
+  content: "";
+  background-image: url(../img/arrow.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 20px;
+  margin-left: 0.3rem;
+  padding: 0;
+  vertical-align: middle;
+  width: 18px;
+  margin-bottom: 2px;
+  transition: 0.3s margin-left ease-in-out;
+}
+
+.arrow-icon:hover {
+  margin-left: 1rem;
+}
 /* Navigation */
 .main-header {
   position: absolute;
