@@ -205,6 +205,7 @@ img {
 .swiper-container {
   width: 100%;
   padding: 50px 0;
+  overflow: hidden;
 }
 
 .swiper-slide {
@@ -223,7 +224,7 @@ img {
 }
 
 .content .imgbox img {
-  max-width: 150px;
+  max-width: 100px;
 }
 
 .swiper-slide img {
@@ -241,6 +242,7 @@ img {
 .swiper-button-prev,
 .swiper-pagination {
   color: #fff;
+  padding-top: 4rem;
 }
 /* Section More */
 .more {
@@ -428,6 +430,14 @@ img {
   .swiper-slide {
     width: 180px;
     height: 310px;
+  }
+  .swiper-container {
+    position: relative;
+  }
+  .swiper-button-prev {
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
   /* Section More */
