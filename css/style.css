@@ -243,6 +243,7 @@ img {
 .swiper-pagination {
   color: #fff;
   padding-top: 4rem;
+  z-index: 1;
 }
 /* Section More */
 .more {
